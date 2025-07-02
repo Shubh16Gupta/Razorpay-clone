@@ -28,3 +28,40 @@
   filter: drop-shadow(0 0 35px rgba(255, 255, 255, 0.8));
   transition: filter 0.3s ease-in-out;
 }
+
+/* Smooth transition for card */
+.featureCard2 {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+/* Image transition for hover wave */
+.hoverWaveImage {
+  width: auto;
+  height: auto;
+  max-width: 100px;
+}
+
+/* Show image on hover */
+.featureCard2:hover .hoverWaveImage {
+  opacity: 1;
+}
+
+
+/* On hover: lift and shadow */
+.featureCard2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for the icon inside the card */
+.featureCard2:hover .featureCardIcon {
+  transform: scale(1.1);
+  background-color: #1e40af; /* Darker blue (adjust as needed) */
+}
+
+/* Hover effect for the SVG stroke */
+.featureCard2:hover .featureCardSVG {
+  stroke: #38bdf8; /* Light blue (change as desired) */
+  stroke-opacity: 1;
+}
