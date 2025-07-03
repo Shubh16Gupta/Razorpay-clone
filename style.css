@@ -65,3 +65,23 @@
   stroke: #38bdf8; /* Light blue (change as desired) */
   stroke-opacity: 1;
 }
+.corefeaturesection{
+  background-size: 100% 100%;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+.Companylist{
+  animation: 10s infinite linear moveCompany ;
+}
+@keyframes moveCompany {
+  0%{
+    top: 0;
+  }
+  100%{
+    top: -50%;
+  }
+  
+}
+.ctasection{
+  background-size: 100% 100%;
+}
